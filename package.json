@@ -15,6 +15,7 @@
     "clean-i-m1": "cd ios && pod deintegrate && pod cache clean --all && arch -x86_64 pod install"
   },
   "dependencies": {
+    "@babel/plugin-syntax-decorators": "^7.19.0",
     "@react-navigation/native": "^6.0.12",
     "@react-navigation/native-stack": "^6.8.0",
     "mobx": "^6.6.2",
